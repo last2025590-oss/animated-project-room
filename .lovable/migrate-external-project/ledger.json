@@ -1,0 +1,79 @@
+[
+  {
+    "capability": "code",
+    "source": "GitHub TanStack portfolio",
+    "outcome": "migrate",
+    "status": "in_progress",
+    "next_action": "Import original pages and animations"
+  },
+  {
+    "capability": "schema",
+    "source": "No database call sites",
+    "outcome": "not_applicable",
+    "status": "verified",
+    "next_action": ""
+  },
+  {
+    "capability": "records",
+    "source": "Static portfolio data in source",
+    "outcome": "migrate",
+    "status": "in_progress",
+    "next_action": "Copy bundled content"
+  },
+  {
+    "capability": "auth identities",
+    "source": "No sign-in functionality",
+    "outcome": "not_applicable",
+    "status": "verified",
+    "next_action": ""
+  },
+  {
+    "capability": "authorization",
+    "source": "Public portfolio",
+    "outcome": "not_applicable",
+    "status": "verified",
+    "next_action": ""
+  },
+  {
+    "capability": "uploaded file bytes",
+    "source": "Bundled models, photos, video, resumes and fonts",
+    "outcome": "migrate",
+    "status": "in_progress",
+    "next_action": "Upload original media"
+  },
+  {
+    "capability": "external providers",
+    "source": "Web3Forms contact form and project links",
+    "outcome": "preserve",
+    "status": "pending",
+    "next_action": "Verify contact validation; avoid sending unsolicited email"
+  },
+  {
+    "capability": "public endpoints / callbacks / webhooks / schedules",
+    "source": "None in source",
+    "outcome": "not_applicable",
+    "status": "verified",
+    "next_action": ""
+  },
+  {
+    "capability": "secrets",
+    "source": "No private server keys; public Web3Forms form identifier",
+    "outcome": "not_applicable",
+    "status": "verified",
+    "next_action": ""
+  },
+  {
+    "capability": "cutover",
+    "source": "New Lovable preview; original repository unchanged",
+    "outcome": "preserve",
+    "status": "in_progress",
+    "next_action": "Verify preview"
+  },
+  {
+    "capability": "verification",
+    "source": "3D room, panels, portfolio and tests",
+    "outcome": "migrate",
+    "status": "in_progress",
+    "next_action": "Run browser checks and tests"
+  }
+]

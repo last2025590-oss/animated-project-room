@@ -28,3 +28,9 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Imported portfolio
+- Keep the target TanStack bootstrap and pinned framework versions; import portfolio presentation without replacing runtime configuration.
+- Load the original Three.js experiences lazily after hydration; they access browser APIs and must not execute during SSR.
+- Serve imported media through asset pointers and the originalMedia mapping; only decoder JavaScript stays in public as runtime source.
+- Render room sections as canvas-textured Three.js wall screens using shared section data; section navigation must reuse the project-wall camera rather than open dialogs.
